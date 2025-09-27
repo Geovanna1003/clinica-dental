@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🦷 Clínica Dental
 
-## Getting Started
+Projeto de site institucional responsivo para uma clínica odontológica, desenvolvido com **Next.js**, **React** e **CSS Modules**.
 
-First, run the development server:
+---
+
+## 📋 Descrição
+
+Este site apresenta os serviços da clínica, depoimentos de clientes, localização e horário de atendimento. Ele foi desenvolvido com foco em boas práticas de responsividade e uso de **componentes com props** para tornar o código mais reutilizável.
+
+---
+
+## 🧩 Tecnologias utilizadas
+
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- CSS Modules
+- Imagens otimizadas com `next/image`
+
+---
+
+## 📦 Funcionalidades
+
+- ✅ Topo com logotipo centralizado  
+- ✅ Seção de apresentação com serviços oferecidos  
+- ✅ Seção de benefícios com layout flexível  
+- ✅ Componentes com **props** (`CardDepoimento`, `MolduraInformacoes`)  
+- ✅ Mapa com localização da clínica  
+- ✅ Responsividade completa para celular, tablet e desktop  
+
+---
+
+## 📂 Estrutura de Componentes
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+/componentes
+│
+├── Topo.jsx
+├── SecaoApresentacao.jsx
+├── SecaoBeneficios.jsx
+├── CardDepoimento.jsx
+├── MolduraInformacoes.jsx
+└── SecaoLocalizacao.jsx
+└── Rodape.jsx
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+/pages
+│
+├── index.jsx (página principal)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+/public
+│
+├── imagens e assets diversos
+Este site foi desenvolvido com 💙 por Geovanna Alves
+.
+Projeto criado como site de estudo da DevMedia.

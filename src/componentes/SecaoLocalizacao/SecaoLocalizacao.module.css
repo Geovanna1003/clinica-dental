@@ -1,0 +1,47 @@
+.secao_localizacao {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.secao_localizacao div {
+    padding: 0 20px;
+    text-align: center;
+}
+.secao_localizacao div h2 {
+    line-height: 50px;
+    padding-bottom: 20px;
+}
+.subtitulo {
+  font-size: 30px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+  text-align: center;
+}
+.subtitulo span {
+    font-weight: 500;
+}
+
+
+@media (max-width: 768px) {
+  .secao_localizacao {
+    gap: 20px;
+    padding: 40px 10px;
+  }
+
+  .secao_localizacao div {
+    padding: 0 10px;
+  }
+
+  .subtitulo {
+    font-size: 22px;
+    line-height: 1.3;
+  }
+
+  .secao_localizacao div p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  
+}
